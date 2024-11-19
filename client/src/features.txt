@@ -1,0 +1,72 @@
+DWARKA ORTHODONTICS AND DENTAL COMPANY
+
+pages ->
+    main ✔ 
+    specific category -> products ✔ 
+    specific product ✔ 
+    cart ✔ 
+    checkout ✔  
+    login (formik) ✔ 
+    sign-up (formik) ✔ 
+    admin ->
+        login
+        inventory
+
+
+pending ->
+   ❗after placing order, when cart becomes empty, the items which get removed from the cart,
+    the state of those items does not get updated from "remove from cart" to "add to cart"
+
+   ❗issues with product quantity
+
+   ❗on refresh, if an item is present in cart, "add to cart" is shown instead of "remove from cart"
+
+    styling & responsiveness
+
+    update cart qty in header
+    add icon for cart, offers and user in header (react icons)
+
+    reset password
+
+    show encrypted password in api response
+    store confidential data in dotenv (for both backend and frontend)
+    
+
+issues -> 
+   (NOT FIXED❗) (temporarily solved) on removing one item from cart the item left gets the qty of the removed item, gets fixed on refresh
+    opening cart page without login is causing error (create empty cart condition) ✔
+    on refresh, if an item is present in cart, "add to cart" is shown instead of "remove from cart"
+
+
+extra ->
+    verfication-code during sign up
+    send message and mail on placing order
+    login with google
+    https
+    testing 
+        unit
+        integration
+    SSR(server side rendering)
+    CI/CD pipeline (continuous integration/ continuous deployment) ✔ 
+    
+
+completed ->
+    routing  ✔ 
+    cloudinary (storing all images on cloudinary) ✔ 
+    redux for cart ✔ 
+    cart update remove add ✔ 
+    add products in cart only when the user is logged in ✔ 
+    update user details when logged-in ✔ 
+    store login credentials in local storage ✔
+    store cart-items in local storage ✔ 
+    empty cart page ✔
+    after login take the user to homepage ✔
+    after signup take the user to login page ✔
+    sign-out functionality ✔
+    remove info from local storage on sign-out ✔
+    don't show login or signup page when user is logged in ✔
+    implement search functionality ✔ 
+    checkout form ✔ 
+    show password feature ✔ 
+
+
